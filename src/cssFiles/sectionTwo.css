@@ -1,0 +1,60 @@
+#codeLogo{
+    font-size: 30px;
+    margin: 3px;
+    align-self: center;
+}
+#codeLogoLua{
+    font-size: 30px;
+    margin: 3px;
+    color: rgb(114, 162, 246);
+    align-self: center;
+}
+.codeUL{
+    display: block;
+    margin: auto;
+    padding: 0;
+    max-width: 1280px;
+    list-style-type: none;
+}
+.sectionTwoListitem{
+    display: inline-block;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: black;
+    flex-direction: row;
+    list-style: none;
+    cursor: default;
+    transition:
+            transform 0.3s ease, color 0.3s ease,
+            background-color 0.3s ease;
+}
+.codeNameText{
+    text-align: center;
+    margin-left: 10px;
+}
+.sectionTwoCodeSection{
+    margin-top: 3%;
+    margin-bottom: 3%;
+
+}
+.linkToGit{
+    display: flex;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.linkToGit:link{
+    color: white;
+    text-decoration: none;
+}
+.linkToGit:visited{
+    color: white;
+}
+.sectionTwoListitem:hover{
+    transform: translateY(-5px) rotate(-3deg);
+    color: #ffffff;
+    background-color: #f6434f;
+
+}

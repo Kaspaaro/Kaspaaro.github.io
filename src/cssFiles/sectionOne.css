@@ -1,0 +1,236 @@
+h1{
+    background-color: #ffffff;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    transform: rotate(-2deg);
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 0 7px rgb(255, 255, 255), 0 0 3px rgb(0, 0, 0);
+
+}
+h1:after {
+    content: '';
+    position: absolute;
+    border: 1px solid #ffce0a;
+    bottom: 4px;
+    left: 4px;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+.glowTexth2{
+    margin-top: 2em;
+    color: white;
+    text-shadow: 0 0 40px rgb(255, 255, 255), 0 0 3px rgb(0, 0, 0);
+}
+.glowTexth3{
+    color: white;
+    text-shadow: 0 0 40px rgb(255, 255, 255), 0 0 3px rgb(0, 0, 0);
+}
+.glowTextp{
+    color: white;
+    text-shadow: 0 0 40px rgb(255, 255, 255), 0 0 3px rgb(0, 0, 0);
+}
+.glowTexttimeline{
+    color: rgb(0, 0, 0);
+}
+
+.glowTexttimelineH5{
+    background-color: #000000;
+    border: 0 solid #000000;
+    box-sizing: border-box;
+    color: #f3f2f2;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.2rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.glowTexttimelineH5:after {
+    content: '';
+    position: absolute;
+    border: 3px solid rgba(0, 0, 0, 0.4);
+    bottom: 4px;
+    left: 4px;
+    z-index: -1;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+.glowTexttimelineParag{
+    background-color: #000000;
+    border: 0 solid #000000;
+    box-sizing: border-box;
+    color: #f3f2f2;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.glowTexttimelineParag:after {
+    content: '';
+    position: absolute;
+    border: 3px solid rgba(0, 0, 0, 0.4);
+    bottom: 4px;
+    left: 4px;
+    z-index: -1;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+.glowTexttimelineParagTwo{
+    background-color: #000000;
+    border: 0 solid #000000;
+    box-sizing: border-box;
+    color: #f3f2f2;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.glowTexttimelineParagTwo:after {
+    content: '';
+    position: absolute;
+    border: 3px solid rgba(0, 0, 0, 0.4);
+    bottom: 4px;
+    left: 4px;
+    z-index: -1;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+
+.blockOne{
+    background-color: white;
+    position: absolute;
+    width: 130%;
+    left: -15%;
+    transform: rotate(-1deg);
+    bottom: 60%;
+    z-index: -1;
+    height: 5px;
+}
+.blockTwo{
+    background-color: white;
+    position: absolute;
+    width: 120%;
+    left: -10%;
+    transform: rotate(-1deg);
+    bottom: 36%;
+    z-index: -1;
+    height: 5px;
+}
+.experienceDiv{
+    background-color: #ffffff;
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #000000;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #000000 solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 600px;
+    transform: rotate(-2deg);
+    margin-top: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 0 7px rgb(255, 255, 255), 0 0 3px rgb(0, 0, 0);
+}
+.experienceDiv:after {
+    content: '';
+    position: absolute;
+    border: 3px solid #ffffff;
+    bottom: 4px;
+    left: 4px;
+    z-index: -1;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
+.experienceSection{
+    background-color: rgba(10, 10, 10, 0.37);
+    margin: 1%;
+    width: auto;
+    border-radius: 25px;
+    padding: 4px;
+}
+.timeLineSection{
+    font-size: 30px;
+}
+.timeLineDecoration{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    border-radius: 50%;
+    width: 50px;
+    left: -40%;
+    transform: rotate(+1deg);
+    bottom: 60%;
+    z-index: -1;
+    height: 50px;
+}
+.timeLineDecorationTwo{
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    border-radius: 50%;
+    width: 60px;
+    left: -40%;
+    transform: rotate(+1deg);
+    bottom: 60%;
+    z-index: -2;
+    height: 60px;
+}
+.timeLineDecorationThree{
+    background-color: rgb(255, 255, 255);
+    position: absolute;
+    width: 300px;
+    max-width: 300px;
+    min-width: 10px;
+    left: -38%;
+    transform: rotate(+1deg);
+    bottom: 65%;
+    z-index: -3;
+    height: 10px;
+}
