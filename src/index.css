@@ -50,14 +50,13 @@ code {
 }
 @media screen and (max-width: 600px) {
   body{
-    align-items: center;
+    margin: 0;
+    padding: 0;
     display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
-    overflow-x: visible;
-    scrollbar-width: none;
-  }
-  ::-webkit-scrollbar {
-    display: none; /* For Chrome, Safari, and Opera */
+    overflow-x: hidden;
   }
   .element2 {
     position: fixed;
