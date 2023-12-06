@@ -36,3 +36,5 @@ hr{
     width: calc(100% - 1px);
     height: calc(100% - 1px);
 }
+@media screen and (max-width: 600px) {
+}

@@ -46,3 +46,42 @@ code {
   opacity:1;
   right:100px;
 }
+@media screen and (max-width: 600px) {
+  .element2 {
+    position: fixed;
+    font-size: 70px;
+    top: 45%;
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    opacity: 1;
+    right: 100px;
+    mix-blend-mode: difference;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    transition: all 1s;
+  }
+  .element1{
+    position: fixed;
+    font-size: 100px;
+    top: 55%;
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    opacity: 1;
+    right: 100px;
+    text-decoration: none;
+    mix-blend-mode: difference;
+    color: #0e86fd;
+    transition: all 1.5s;
+  }
+  .hide {
+    opacity:0;
+    right:-150px;
+  }
+  .show {
+    opacity:1;
+    right:5px;
+  }
+
+}

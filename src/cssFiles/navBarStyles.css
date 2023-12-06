@@ -71,3 +71,17 @@
         font-size: 1.25rem;
     }
 }
+@media screen and (max-width: 600px) {
+    .navButton {
+        padding: .75rem 3rem;
+        font-size: 1.25rem;
+        margin-top: 10px;
+    }
+    .navBarcontainer{
+        padding: 1em;
+        display: inline-flex;
+        align-items: center;
+        border-radius: 30px;
+        flex-direction: column;
+    }
+}

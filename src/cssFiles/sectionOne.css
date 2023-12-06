@@ -234,3 +234,18 @@ h1:after {
     z-index: -3;
     height: 10px;
 }
+@media screen and (max-width: 600px) {
+    .timeLineDecoration{
+        visibility: hidden;
+    }
+    .timeLineDecorationThree{
+        visibility: hidden;
+    }
+    .timeLineDecorationTwo{
+        visibility: hidden;
+    }
+    .experienceDiv{
+        width: 400px;
+        right: 30%;
+    }
+}
