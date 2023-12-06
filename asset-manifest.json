@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Kaspaaro.github.io/static/css/main.26e98188.css",
-    "main.js": "/Kaspaaro.github.io/static/js/main.df47c699.js",
-    "static/js/787.18b189b6.chunk.js": "/Kaspaaro.github.io/static/js/787.18b189b6.chunk.js",
-    "index.html": "/Kaspaaro.github.io/index.html",
-    "main.26e98188.css.map": "/Kaspaaro.github.io/static/css/main.26e98188.css.map",
-    "main.df47c699.js.map": "/Kaspaaro.github.io/static/js/main.df47c699.js.map",
-    "787.18b189b6.chunk.js.map": "/Kaspaaro.github.io/static/js/787.18b189b6.chunk.js.map"
+    "main.css": "/Kaspaaro.github.io/public/static/css/main.26e98188.css",
+    "main.js": "/Kaspaaro.github.io/public/static/js/main.56e2b272.js",
+    "static/js/787.18b189b6.chunk.js": "/Kaspaaro.github.io/public/static/js/787.18b189b6.chunk.js",
+    "index.html": "/Kaspaaro.github.io/public/index.html",
+    "main.26e98188.css.map": "/Kaspaaro.github.io/public/static/css/main.26e98188.css.map",
+    "main.56e2b272.js.map": "/Kaspaaro.github.io/public/static/js/main.56e2b272.js.map",
+    "787.18b189b6.chunk.js.map": "/Kaspaaro.github.io/public/static/js/787.18b189b6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.26e98188.css",
-    "static/js/main.df47c699.js"
+    "static/js/main.56e2b272.js"
   ]
 }
