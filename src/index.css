@@ -6,9 +6,6 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
 }
 
 code {
@@ -24,6 +21,7 @@ code {
   border-radius: 30px;
   opacity: 1;
   right: 100px;
+  mix-blend-mode: difference;
   color: #ffffff;
   text-decoration: none;
   transition: all 1s;
@@ -37,6 +35,7 @@ code {
   border-radius: 30px;
   opacity: 1;
   right: 100px;
+  mix-blend-mode: difference;
   text-decoration: none;
   color: #0e86fd;
   transition: all 1.5s;
@@ -50,6 +49,16 @@ code {
   right:100px;
 }
 @media screen and (max-width: 600px) {
+  body{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    overflow-x: visible;
+    scrollbar-width: none;
+  }
+  ::-webkit-scrollbar {
+    display: none; /* For Chrome, Safari, and Opera */
+  }
   .element2 {
     position: fixed;
     font-size: 70px;
