@@ -1,4 +1,4 @@
-# Project Name
+# My Portfolio
 
 ## Author
 [Kaspar Tullus]
