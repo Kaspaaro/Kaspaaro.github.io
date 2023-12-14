@@ -1,0 +1,21 @@
+.threeObjectContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.threeObjectCanva{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300vh;
+    max-height: 200vh;
+    min-width: 20%;
+    min-height: 50vh;
+    z-index: 1;
+    opacity: 1;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+    transition: all 1.5s;
+}

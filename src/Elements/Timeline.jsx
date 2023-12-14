@@ -1,5 +1,7 @@
 import {Col, Container, Row} from "react-bootstrap";
 import '../cssFiles/sectionOne.css'
+import Three3D from "./Three3D";
+import React from "react";
 const ExperienceTimeline = () => {
     const experiences = [
         {
@@ -36,9 +38,7 @@ const ExperienceTimeline = () => {
                 <Col md={6} className="timeline">
                     {experiences.map((experience, index) => (
                         <div key={index} className="experienceDiv">
-                            <div className={"timeLineDecoration"}></div>
-                            <div className={"timeLineDecorationTwo"}></div>
-                            <div className={"timeLineDecorationThree"}></div>
+                            <Three3D/>
                             <div className="timeline-content">
                                 <h5 className={'glowTexttimelineH5'}>{experience.title}</h5>
                                 <p className="glowTexttimelineParag">{experience.date}</p>

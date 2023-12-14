@@ -9,6 +9,7 @@ import SectionThree from "./Elements/SectionThree";
 function App() {
   return (
     <div className="App">
+
      <header className={'websiteHeader'}>
          <NavBar/>
      </header>

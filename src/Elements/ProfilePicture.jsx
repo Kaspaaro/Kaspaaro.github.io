@@ -1,8 +1,10 @@
 import '../cssFiles/profilePictureCSS.css'
+import React from "react";
+import Three3D from "./Three3D";
 const ProfilePicture = () =>{
     return(
-        <div className={'profilePictureContainer'} id={'PICTURE'}>
 
+        <div className={'profilePictureContainer'} id={'PICTURE'}>
             <img
                 className={'profilePicture'}
                 src={'https://avatars.githubusercontent.com/u/114400605?v=4'}
