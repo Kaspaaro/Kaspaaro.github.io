@@ -6,9 +6,11 @@ import Footer from "./Elements/Footer";
 import SectionOne from "./Elements/SectionOne";
 import SectionTwo from "./Elements/SectionTwo";
 import SectionThree from "./Elements/SectionThree";
+import LoadingScreen from "./Elements/LoadingScreen";
 function App() {
   return (
     <div className="App">
+        <LoadingScreen/>
 
      <header className={'websiteHeader'}>
          <NavBar/>

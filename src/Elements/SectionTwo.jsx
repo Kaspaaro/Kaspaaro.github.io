@@ -100,13 +100,6 @@ const SectionTwo = () =>{
                             <p className={'codeNameText'}>WordPress</p>
                         </a>
                     </li>
-                    <li className={'sectionTwoListitem'}>
-                        <a href={'https://github.com/Kaspaaro'} className={'linkToGit'}>
-                            <i className={'devicon-typescript-plain colored'} id={'codeLogo'}></i>
-                            <p className={'codeNameText'}>TypeScript</p>
-                        </a>
-
-                    </li>
                 </ul>
             </section>
         </section>

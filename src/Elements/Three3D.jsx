@@ -44,7 +44,7 @@ function Box(props) {
                 bumpMap={bumpTexture}
                 bumpScale={10}
                 normalMap={normalTexture}
-                normalScale={1}
+                normalScale={100}
                 aoMap={AOTexture}
 
             />
