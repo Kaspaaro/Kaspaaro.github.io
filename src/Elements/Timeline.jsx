@@ -1,6 +1,5 @@
 import {Col, Container, Row} from "react-bootstrap";
 import '../cssFiles/sectionOne.css'
-import Three3D from "./Three3D";
 import React from "react";
 const ExperienceTimeline = () => {
     const experiences = [
