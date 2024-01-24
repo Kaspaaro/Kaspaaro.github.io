@@ -38,7 +38,6 @@ const ExperienceTimeline = () => {
                 <Col md={6} className="timeline">
                     {experiences.map((experience, index) => (
                         <div key={index} className="experienceDiv">
-                            <Three3D/>
                             <div className="timeline-content">
                                 <h5 className={'glowTexttimelineH5'}>{experience.title}</h5>
                                 <p className="glowTexttimelineParag">{experience.date}</p>
