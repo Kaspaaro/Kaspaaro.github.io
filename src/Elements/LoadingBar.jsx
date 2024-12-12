@@ -2,7 +2,13 @@ import React, {useEffect, useRef, useState} from "react";
 import {useFrame, useLoader} from "@react-three/fiber";
 import {TextureLoader, Vector2} from "three";
 
+
 function LoadingBox({ position, delay }) {
+    let roughnessTexture = useLoader(TextureLoader, '/my-portfolio/Textures/Obsidian/Obsidianroughness.jpg');
+    let normalTexture = useLoader(TextureLoader, `/my-portfolio/Textures/Obsidian/Obsidiannormal.jpg`);
+    let bumpTexture = useLoader(TextureLoader, `/my-portfolio/Textures/Obsidian/Obsidianheight.jpg`);
+    let AOTexture = useLoader(TextureLoader, `/my-portfolio/Textures/Obsidian/ObsidianambientOcclusion.jpg`);
+
     const boxRef = useRef();
     const [isVisible, setIsVisible] = useState(false);
     const [normalScale, setNormalScale] = useState(new Vector2(0.1, 0.1));
@@ -40,10 +46,7 @@ function LoadingBox({ position, delay }) {
         }
     });
 
-    const roughnessTexture = useLoader(TextureLoader, '../Textures/Obsidian/Obsidianroughness.jpg');
-    const normalTexture = useLoader(TextureLoader, `../Textures/Obsidian/Obsidiannormal.jpg`);
-    const bumpTexture = useLoader(TextureLoader, `../Textures/Obsidian/Obsidianheight.jpg`);
-    const AOTexture = useLoader(TextureLoader, `../Textures/Obsidian/ObsidianambientOcclusion.jpg`);
+
 
     return (
         <mesh ref={boxRef} position={position}>
