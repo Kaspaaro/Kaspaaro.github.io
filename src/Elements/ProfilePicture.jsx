@@ -1,6 +1,4 @@
 import '../cssFiles/profilePictureCSS.css'
-import React from "react";
-import Three3D from "./Three3D";
 const ProfilePicture = () =>{
     return(
 

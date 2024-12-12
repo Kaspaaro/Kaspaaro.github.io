@@ -36,5 +36,53 @@ hr{
     width: calc(100% - 1px);
     height: calc(100% - 1px);
 }
+.paragraphSectionSocialLinks{
+    font-size: 13vh;
+    color: #ffffff;
+}
+.devicon-github-original-wordmark,.devicon-linkedin-plain-wordmark{
+    line-height: 0 !important;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.socialLink{
+    text-decoration: none;
+}
+.paragraphSectionSocialLinks a:visited,
+.paragraphSectionSocialLinks a:active {
+    color: inherit;
+}
+.socialLinksTitle{
+    background-color: rgba(255, 255, 255, 0);
+    border: 0 solid #E5E7EB;
+    box-sizing: border-box;
+    color: #ffffff;
+    font-family: ui-sans-serif,system-ui,-apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 2rem;
+    font-weight: 700;
+    line-height: 1.75rem;
+    padding: .75rem 1.65rem;
+    position: relative;
+    text-align: center;
+    text-decoration: none #ffffff solid;
+    text-decoration-thickness: auto;
+    width: 100%;
+    max-width: 460px;
+    transform: rotate(0);
+    margin-top: 1em;
+    margin-left: auto;
+    margin-right: auto;
+    text-shadow: 0 0 7px rgb(234, 150, 150), 0 0 3px rgb(0, 0, 0);
+}
+.socialLinksTitle:after {
+    content: '';
+    position: absolute;
+    border: 1px solid rgba(255, 254, 254, 0);
+    bottom: 0;
+    left: 0;
+    width: calc(100% - 1px);
+    height: calc(100% - 1px);
+}
+
 @media screen and (max-width: 600px) {
 }

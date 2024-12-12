@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 12;
+    z-index: -1;
     opacity: 1;
     transition: all 1.5s;
 }
@@ -17,8 +17,10 @@
     margin-top: 60px;
 }
 .canvasHolderText{
-    height: 50%;
-    overflow: clip;
+    position: absolute; /* Absolute positioning to overlay the canvas behind content */
+    width: 100%;  /* Full viewport width */
+    height: 100%; /* Full viewport height */
+    z-index: -1; /* Ensure the canvas stays behind other elements */
 }
 .loading-screen.hidden {
     opacity: 0;
