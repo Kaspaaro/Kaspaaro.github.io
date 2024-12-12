@@ -6,7 +6,7 @@ const ProfilePicture = () =>{
             <img
                 className={'profilePicture'}
                 src={'https://avatars.githubusercontent.com/u/114400605?v=4'}
-                alt = "Me"/>
+                alt="Me"/>
 
             <main className="containerProfilePic">
                 <p className={'GlowText'}>Hello i am</p>

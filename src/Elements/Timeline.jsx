@@ -5,7 +5,7 @@ const ExperienceTimeline = () => {
     const experiences = [
         {
             title: "BRAVORI OY - JUNIOR FULL-STACK DEVELOPER",
-            date: "May 2023 - Nov 2023",
+            date: "Jun 2023 - Nov 2023",
             description1: "• Developed a mobile-software / application (Typescript,React Native.js)",
             description2: "• Designed and developed websites with javascript and wordpress",
             description3: "• Developed and designed data with firebase."

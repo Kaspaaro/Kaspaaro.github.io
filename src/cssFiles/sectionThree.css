@@ -1,13 +1,13 @@
 .paragraphSectionThree{
-    font-size: 16px;
-    color: white;
+    font-size: 18px;
+    color: #dcdcdc;
+    line-height: 1.7;
 }
 hr{
-    color: #070707;
-    box-shadow: 0 0 7px rgb(0, 0, 0), 0 0 3px rgb(0, 0, 0);
+    color: #dddbdb;
 }
 .experienceDivsectionThree{
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: rgb(0, 0, 0);
     border: 0 solid #E5E7EB;
     box-sizing: border-box;
     color: #000000;
@@ -29,7 +29,7 @@ hr{
 .experienceDivsectionThree:after {
     content: '';
     position: absolute;
-    border: 3px solid #f38484;
+    border: 3px solid #bfad57;
     bottom: 4px;
     left: 4px;
     z-index: -1;
