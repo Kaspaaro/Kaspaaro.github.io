@@ -33,8 +33,6 @@ const LoadingScreen = () => {
         const yone = -((event.clientY - rect.top) / rect.height) * 2 + 1;
         const xtwo = ((event.clientX - rect.left) / rect.width) * 1.5 - 4 /8;
         const ytwo = -((event.clientY - rect.top) / rect.height) * 2 + 1;
-
-        console.log(lightRef.current.position)
         // Update the light's position based on mouse coordinates
         if (lightRef.current) {
             lightRef.current.position.set(xone * 10, yone * 10, 4);
@@ -183,7 +181,7 @@ const LoadingScreen = () => {
 
                     {/* Loading bar */}
                     <group position={[0, 0, 2]}>
-                        <LoadingBar/>
+                    <LoadingBar/>
                     </group>
                 </Canvas>
             </div>

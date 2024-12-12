@@ -9,7 +9,6 @@ import SectionTwo from "./Elements/SectionTwo.jsx";
 import Footer from "./Elements/Footer.jsx";
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
       <>
